@@ -6,6 +6,7 @@
     grid-template-rows: repeat(2, 1fr);
     gap: 20px;
     place-content: center;
+    padding: 30px;
 }
 
 
