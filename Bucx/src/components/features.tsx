@@ -13,7 +13,7 @@ export function Feautures(){
                 return (
                   <div className={styles.card}>
                   <picture>
-                     <img src={feauture.image} className={styles.img} styles={last ? {width: 350px, height: 250px} : {}}/>
+                      <img src={feature.image} className={styles.img} style={last ? { width: 350, height: 250 } : {}} />   
                   </picture>
 
                     <div className={styles.wrap}>
