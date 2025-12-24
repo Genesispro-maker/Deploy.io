@@ -8,11 +8,12 @@ export function Feautures(){
          <h1 className={styles.header}>Built to make banking borderless <br /> for professionals in Africa</h1>
          </div>
         <div className={styles.wrapper}>
-            {features.map((feauture) => {
+            {features.map((feauture, index) => {
+               const last = index === feautures.length - 1
                 return (
                   <div className={styles.card}>
                   <picture>
-                     <img src={feauture.image} className={styles.img}/>
+                     <img src={feauture.image} className={styles.img} styles={last ? {width: 350px, height: 250px} : {}}/>
                   </picture>
 
                     <div className={styles.wrap}>
