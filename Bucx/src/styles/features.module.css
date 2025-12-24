@@ -2,7 +2,7 @@
 
 .wrapper{
     display: grid;
-    grid-template-columns: repeat(3, 400px);
+    grid-template-columns: repeat(3, 350px);
     grid-template-rows: repeat(2, 1fr);
     gap: 20px;
     place-content: center;
