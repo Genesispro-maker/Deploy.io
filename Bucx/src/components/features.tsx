@@ -9,7 +9,7 @@ export function Feautures(){
          </div>
         <div className={styles.wrapper}>
             {features.map((feauture, index) => {
-               const last = index === feautures.length - 1
+               const last = index === features.length - 1
                 return (
                   <div className={styles.card}>
                   <picture>
