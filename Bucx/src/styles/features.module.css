@@ -35,10 +35,6 @@
   transition: transform 300ms;
 }
 
-.img:last-child{
-    width: 400px;
-    height: 250px;
-}
 .card{
     height: 500px;
     background-color: white;
