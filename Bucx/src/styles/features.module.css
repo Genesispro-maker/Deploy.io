@@ -2,7 +2,7 @@
 
 .wrapper{
     display: grid;
-    grid-template-columns: repeat(3, 450px);
+    grid-template-columns: repeat(3, 400px);
     grid-template-rows: repeat(2, 1fr);
     gap: 20px;
     place-content: center;
@@ -14,7 +14,6 @@
     background-color: #f6f6f6;
     max-width: 100%;
     margin: auto;
-    padding: 40px;
 }
 
 .wrap{
