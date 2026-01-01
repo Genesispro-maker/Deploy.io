@@ -9,11 +9,12 @@ export function Feautures(){
          </div>
         <div className={styles.wrapper}>
             {features.map((feauture, index) => {
-               const last = index === features.length - 1
+              const lastImage = index === features.length - 1 // still the same as index === 5
+              console.log(features.length - 1)
                 return (
                   <div className={styles.card}>
                   <picture>
-                      <img key={index} src={feature.image} className={styles.img} />   
+                      <img key={index} src={feauture.image} className={styles.img} style={lastImage ? {width: "300px", height: "200px", borderRadius: "10px"} : undefined}/>  {/*still the same as {}*/}
                   </picture>
 
                     <div className={styles.wrap}>
