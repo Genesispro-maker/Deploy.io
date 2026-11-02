@@ -11,6 +11,5 @@ func Server() {
 	http.HandleFunc("POST /deployments", Deploy)
 	http.HandleFunc("GET /deployments", GetDeployments)
 
-	log.Println("listening on http://localhost:8080")
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }
